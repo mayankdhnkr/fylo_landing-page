@@ -2,8 +2,18 @@
 #title{
     padding: 2% 5%;
 }
+.nav-link{
+    font-size: 1.15rem;
+}
+.title-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.title-para{
+    font-size: 1.15rem;
+}
 .title-img{
-    width: 70%;
+    width: 95%;
 }
 .email-field{
     border-radius: 2px;
