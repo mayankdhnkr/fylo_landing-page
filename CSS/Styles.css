@@ -1,0 +1,16 @@
+/* TITLE SECTION */
+#title{
+    padding: 2% 5%;
+}
+.title-img{
+    width: 70%;
+}
+.email-field{
+    border-radius: 2px;
+}
+/* RESPONSIVE DESIGN */
+@media (max-width:990px) {
+    .title-text{
+        text-align: center;
+    }
+}
