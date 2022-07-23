@@ -12,15 +12,44 @@
 .title-para{
     font-size: 1.15rem;
 }
+.green-text{
+    color: hsl(170, 45%, 43%);
+}
 .title-img{
     width: 95%;
 }
 .email-field{
     border-radius: 2px;
 }
+
+
+/* TESTIMONIAL SECTION */
+#testimonial{
+    margin-top: 20%;
+    padding: 2% 5%;
+}
+.user-testimonial{
+    background-color: white;
+    width: 50%;
+    padding: 3%;
+    border-radius: 5px;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100px;
+}
+.testimonial-image {
+    margin: 0;
+    padding: 0;
+}
+
 /* RESPONSIVE DESIGN */
 @media (max-width:990px) {
     .title-text{
         text-align: center;
+    }
+    .user-testimonial{
+        margin: auto;
+        text-align: left;
     }
 }
