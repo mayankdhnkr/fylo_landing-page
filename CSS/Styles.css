@@ -1,6 +1,7 @@
 /* TITLE SECTION */
 #title{
     padding: 2% 5%;
+    margin-bottom: 10%;
 }
 .nav-link{
     font-size: 1.15rem;
@@ -25,8 +26,8 @@
 
 /* TESTIMONIAL SECTION */
 #testimonial{
-    margin-top: 20%;
-    padding: 2% 5%;
+    padding:5%;   
+    background-color: #f8f8fe;
 }
 .user-testimonial{
     background-color: white;
@@ -41,6 +42,9 @@
 .testimonial-image {
     margin: 0;
     padding: 0;
+}
+.desktop-curved-image{
+    width: 100%;
 }
 
 /* RESPONSIVE DESIGN */
