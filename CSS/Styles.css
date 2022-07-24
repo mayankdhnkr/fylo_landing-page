@@ -1,3 +1,6 @@
+.btn{
+    background-color: hsl(224, 93%, 58%);
+}
 /* TITLE SECTION */
 #title{
     padding: 2% 5%;
@@ -12,6 +15,9 @@
 }
 .title-para{
     font-size: 1.15rem;
+}
+.green-text:hover{
+    color: hsl(169, 40%, 33%);
 }
 .green-text{
     color: hsl(170, 45%, 43%);
@@ -47,13 +53,72 @@
     width: 100%;
 }
 
+/* CTA */
+#cta{
+    padding:8% 5%;
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+}
+
+/* FOOTER */
+#footer{
+    padding:5%;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+}
+.footer-link{
+    margin-bottom: 15px;
+    color: white;
+}
+.footer-link:hover{
+    color:hsl(238, 57%, 75%);
+}
+.icon-footer:hover{
+    color: hsl(238, 57%, 75%);
+}
+
+/* ATTRIBUTION */
+.attribution{
+    text-align: center;
+    background-color: hsl(238, 22%, 44%);
+}
+.att-link{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+.att-link:hover{
+    color: hsl(243, 87%, 12%);
+}
+
 /* RESPONSIVE DESIGN */
 @media (max-width:990px) {
     .title-text{
         text-align: center;
     }
+    .title-title{
+        margin-top: 10%;
+        font-size: 2.1rem;
+    }
     .user-testimonial{
         margin: auto;
         text-align: left;
+        width: 70%;
+        margin-bottom:10% ;
+    }
+    .cta-text{
+        text-align: center;
+    }
+    #cta{
+        padding: 15% 0;
+    }
+    .footer-col {
+        margin: 2% 0;
+    }
+    .att-name{
+        display: block;
+    }
+    .icon-footer{
+        padding: 0;
     }
 }
